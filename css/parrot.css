@@ -1,12 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bee</title>
-    <link rel="stylesheet" href="css/parrot.css">
-</head>
-<body>
-<div class="container">
-</div>
-</body>
-</html>
+.parrot{
+    float: right;
+    height: 400px;
+    width: 100%;
+}
+.main-face{
+    height: 200px;
+    width: 200px;
+    background-color: #80B130;
+    border-radius: 90px 1px 90px 1px;
+}
+.parrot-face{
+    position: relative;
+    border-radius: 60px 1px 60px 1px;
+    background-color: #4A7014;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+}
+.eyes{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: -80%;
+    float: right;
+    left: 70px;
+    padding: 2px;
+}
+.pupil{
+    position: relative;
+    left: 10px;
+    top: 17%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #366917;
+}
+.lower-mouth{
+    top: -38.5%;
+    left: 200px;
+    position: relative;
+    border-bottom-right-radius: 35px;
+    background-color: #F79327;
+    height: 35px;
+    width: 35px;
+}
+.upper-mouth{
+    top: -58.7%;
+    left: 200px;
+    position: relative;
+    border-top-right-radius: 40px;
+    background-color: #F79327;
+    height: 50px;
+    width: 65px;
+}
