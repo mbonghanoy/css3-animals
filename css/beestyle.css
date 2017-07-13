@@ -1,0 +1,93 @@
+body{
+    margin: 50px;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.bubuyog{
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+}
+.head{
+    background-color: #30210B;
+    height: 80px;
+    width: 150px;
+    border-radius: 80px 80px 00px 00px;
+    position: relative;
+}
+.left-eyes{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.left-pupil{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #30210B;
+    position: absolute;
+    top: 37%;
+    left: 24%;
+    padding: 2%;
+}
+.right-eyes{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.right-pupil{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #30210B;
+    position: absolute;
+    top: 37%;
+    right: 24%;
+    padding: 2%;
+}
+.bee-body{
+    background-color: yellow;
+    height: 100px;
+    width: 150px;
+    border-radius: 0 0 80px 80px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.tail{
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #30210B;
+    position: relative;
+    left: 60px;
+}
+.stripe1{
+    width: 100%;
+    height: 20px;
+    background-color: #30210B;
+    margin-bottom: 20px;
+}
+.stripe2{
+    width: 100%;
+    height: 20px;
+    background-color: #30210B;
+}
+.left-wing{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    top: 10%;
+}
