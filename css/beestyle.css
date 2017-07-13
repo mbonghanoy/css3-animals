@@ -57,11 +57,13 @@ body{
 }
 .bee-body{
     background-color: yellow;
-    height: 100px;
+    height: 120px;
     width: 150px;
     border-radius: 0 0 80px 80px;
     padding-top: 20px;
+    position: relative;
     overflow: hidden;
+    z-index: 2000;
 }
 .tail{
     height: 0;
@@ -70,24 +72,37 @@ body{
     border-right: 10px solid transparent;
     border-top: 10px solid #30210B;
     position: relative;
-    left: 60px;
+    top: -2px;
+    left: 64px;
 }
 .stripe1{
     width: 100%;
-    height: 20px;
+    height: 24px;
     background-color: #30210B;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .stripe2{
     width: 100%;
-    height: 20px;
+    height: 24px;
     background-color: #30210B;
 }
 .left-wing{
     float: left;
-    width: 100px;
-    height: 100px;
+    position: relative;
+    width: 90px;
+    height: 94px;
     border-radius: 50%;
-    background-color: blue;
-    top: 10%;
+    background-color: #B9E3DB;
+    top: -150px;
+    left: -50px;
+}
+.right-wing{
+    float: right;
+    position: relative;
+    width: 90px;
+    height: 94px;
+    border-radius: 50%;
+    background-color: #B9E3DB;
+    top: -150px;
+    right: 79.5%;
 }
