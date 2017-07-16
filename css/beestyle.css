@@ -7,7 +7,7 @@ body{
 }
 .bubuyog{
     float: left;
-    height: 400px;
+    height: 300px;
     width: 480px;
 }
 .head{
@@ -104,5 +104,5 @@ body{
     border-radius: 50%;
     background-color: #B9E3DB;
     top: -150px;
-    right: -115px;
+    right: -110px;
 }
