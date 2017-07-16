@@ -1,5 +1,7 @@
 body{
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 1000px;
 }
 .container{
     width: 960px;
@@ -97,7 +99,6 @@ body{
     left: -50px;
 }
 .right-wing{
-    float:: right;
     position: relative;
     width: 90px;
     height: 94px;

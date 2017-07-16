@@ -1,6 +1,6 @@
 .parrot{
     float: right;
-    height: 400px;
+    height: 300px;
     width: 480px;
 }
 .main-face{
@@ -38,7 +38,7 @@
     background-color: #366917;
 }
 .upper-mouth{
-    top: -58.7%;
+    top: -235px;
     left: 200px;
     position: relative;
     border-top-right-radius: 40px;
@@ -47,11 +47,11 @@
     width: 60px;
 }
 .lower-mouth{
-    top: -38.5%;
+    top: -150px;
     left: 200px;
-    position: relative;
     border-bottom-right-radius: 35px;
     background-color: #F79327;
     height: 35px;
     width: 35px;
+    position: relative;
 }

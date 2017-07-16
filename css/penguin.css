@@ -2,5 +2,94 @@
     float: left;
     height: 400px;
     width: 480px;
-    background-color: green;
+    padding-top: 50px;
+}
+.penguin-main-body{
+    overflow: hidden;
+    height: 230px;
+    width: 180px;
+    border-radius: 90px 1px 90px 1px;
+    background-color: #1B1A15;
+}
+.
+.penguin-body-up{
+    position: relative;
+    height: 115px;
+    width: 180px;
+    background-color: #1B1A15;
+    margin-bottom: 115px;
+}
+.penguin-body-up .upper-body{
+    float: right;
+    position: relative;
+    height: 115px;
+    width: 90px;
+    border-top-left-radius: 100px;
+    background-color: #F9FDF5;
+}
+.penguin-eyes{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.penguin-pupil{
+    position: relative;
+    top: 7px;
+    left: 8px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.penguin-body-down{
+    float: left;
+    position: relative;
+    height: 115px;
+    width: 180px;
+    background-color: #F8FCF4;
+    z-index: 2000;
+}
+.penguin-body-down .lower-body{
+    float: left;
+    position: relative;
+    height: 115px;
+    width: 90px;
+    border-bottom-right-radius: 100px;
+    background-color: #1B1A15;
+    z-index: 2000;
+}
+.penguin-upper-mouth{
+    float: left;
+    position: relative;
+    border-top-right-radius: 40px;
+    background-color: #FCAF26;
+    height: 50px;
+    width: 50px;
+    left: 180px;
+    bottom: 230px;
+}
+.penguin-lower-mouth{
+    border-bottom-right-radius: 35px;
+    background-color: #E88A25;
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: relative;
+    left: 130px;
+    bottom: 180px;
+}
+.foot{
+    float: left;
+    position: relative;
+    border-top-right-radius: 40px;
+    background-color: #FCAF26;
+    height: 30px;
+    width: 80px;
+    bottom: 30px;
+    left: 15px;
 }
