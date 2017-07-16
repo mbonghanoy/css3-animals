@@ -8,7 +8,7 @@ body{
 .bubuyog{
     float: left;
     height: 400px;
-    width: 100%;
+    width: 480px;
 }
 .head{
     background-color: #30210B;
@@ -97,12 +97,12 @@ body{
     left: -50px;
 }
 .right-wing{
-    float: right;
+    float:: right;
     position: relative;
     width: 90px;
     height: 94px;
     border-radius: 50%;
     background-color: #B9E3DB;
     top: -150px;
-    right: 79.5%;
+    right: -115px;
 }
