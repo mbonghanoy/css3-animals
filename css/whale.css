@@ -1,0 +1,88 @@
+ .whale{
+    float: right;
+    height: 400px;
+    width: 480px;
+    padding-top: 50px;
+}
+.whale-main-body{
+    height: 200px;
+    width: 200px;
+    background-color: #44BCDA;
+    border-radius: 95px 1px 90px 1px;
+    overflow: hidden;
+    z-index: 2000;
+}
+.whale-stomach{
+    position: relative;
+    border-radius: 90px 0px 65px; 0px;
+    background-color: white;
+    height: 150px;
+    width: 160px;
+    top: 50px;
+    left: 50px;
+    overflow: hidden;
+    z-index: 2000;
+}
+.whale-stomach .whale-stripe{
+    position: relative;
+    height: 200px;
+    width: 24px;
+    background-color: #C1D9DD;
+    float: left;
+    margin-right: 2px;
+    z-index: 2000;
+}
+.whale-stripe{
+    margin-right: none;
+}
+.whale-eyes{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 120px;
+    left: 35px;
+}
+.whale-pupil{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #3390A9;
+    left: 7px;
+    top: 7px;
+}
+.whale-hand{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 100px;
+    background-color: #389DB8;
+    bottom: 5px;
+    left: 75px;
+    border-color: none;
+    position: relative;
+}
+.hand-filler{
+    border-style: none;
+    height: 0;
+    width: 0;
+    border-color: none;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 125px solid white;
+    position: relative;
+    top: 10px;
+    right: 35px;
+}
+.whale-tail{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    bottom: 100px;
+    background-color: #389DB8;
+    position: relative;
+    right: 55px;
+    bottom: 75px;
+}

@@ -1,7 +1,7 @@
 .penguin{
     float: left;
     height: 400px;
-    width: 480px;
+    width: 400px;
     padding-top: 50px;
 }
 .penguin-main-body{
@@ -61,7 +61,6 @@
     width: 90px;
     border-bottom-right-radius: 100px;
     background-color: #1B1A15;
-    z-index: 2000;
 }
 .penguin-upper-mouth{
     float: left;
