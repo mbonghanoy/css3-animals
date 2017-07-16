@@ -53,6 +53,17 @@
     left: 7px;
     top: 7px;
 }
+.whale-back{
+    background-color: #389DB8;
+    height: 50px;
+    width: 30px;
+    border-radius: 80px 80px 00px 00px;
+    position: relative;
+    float: left;
+    bottom: 155px;
+    right: 20px;
+    z-index: -1;
+}
 .whale-hand{
     height: 50px;
     width: 50px;
@@ -61,7 +72,6 @@
     background-color: #389DB8;
     bottom: 5px;
     left: 75px;
-    border-color: none;
     position: relative;
 }
 .hand-filler{
@@ -81,8 +91,18 @@
     width: 70px;
     border-radius: 50%;
     bottom: 100px;
-    background-color: #389DB8;
+    background-color: #44BCDA;
     position: relative;
     right: 55px;
     bottom: 75px;
+}
+.tail-filler{
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 0 155px 155px 0;
+    border-color: transparent white transparent transparent;
+    position: relative;
+    top: 27px;
+    right: 110px;
 }
